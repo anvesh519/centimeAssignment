@@ -1,0 +1,68 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Home page default Login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 60188162500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home page",
+            "match": {
+              "location": "RegistrationStepDefinition.user_is_on_home_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Home page default Login",
+        "description": "",
+        "id": "application-login;home-page-default-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13025466400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on Home page",
+            "match": {
+              "location": "RegistrationStepDefinition.user_is_on_home_landing_page()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]
