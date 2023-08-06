@@ -8,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 public class HomePage {
     WebDriver driver;
     private By signInLink = By.linkText("Sign in");
-
+    System.out.println("demo");
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
